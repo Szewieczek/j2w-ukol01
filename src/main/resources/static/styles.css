@@ -1,0 +1,113 @@
+body {
+    font-family: sans-serif;
+    overflow: auto;
+}
+
+main {
+    margin-bottom: 50px;
+    margin-left: 20px;
+}
+
+header {
+    background-color: #6CABB7;
+    color: #323A3A;
+    padding: 1em;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    flex: 1;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-left: 20px;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #111;
+    text-decoration: none;
+}
+
+.social-links {
+    display: flex;
+}
+
+.social-links a {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.social-links img {
+    width: 30px;
+    height: auto;
+    cursor: pointer;
+}
+
+.hero {
+    width: 80%;
+    max-width: 700px;
+    margin: 20px auto 0;
+    padding: 20px;
+    border: 2px solid #72bcd4;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.hero img {
+    width: 400px;
+    height: auto;
+}
+
+.hero-name {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.medailon p {
+    line-height: 1.6;
+}
+
+.casova-osa {
+    padding: 20px;
+}
+
+.casova-osa ul {
+    list-style: none;
+    padding: 0;
+}
+
+.casova-osa li {
+    margin-bottom: 20px;
+}
+
+.casova-osa .rok {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+footer {
+    background-color: #ccc;
+    color: #333;
+    text-align: center;
+    padding: 1em;
+    width: 100%;
+    height: 40px;
+    overflow-x: hidden;
+    position: fixed;
+    bottom: 0;
+}
